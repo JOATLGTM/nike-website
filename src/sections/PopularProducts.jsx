@@ -1,7 +1,17 @@
-import React from "react";
+import { products } from "../constants";
 
 const PopularProducts = () => {
-	return <div>PopularProducts</div>;
+	return (
+		<div id="products" className="max-container max-sm:mt-12">
+			<div className="flex flex-col justify-start gap-5">
+				<h2>Popular Products</h2>
+				<p>
+					Experience top-notch quality and style with our sought-after
+					selections. Discover a world of comfort, design and value
+				</p>
+			</div>
+		</div>
+	);
 };
 
 export default PopularProducts;
